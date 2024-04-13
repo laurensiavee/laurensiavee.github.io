@@ -362,25 +362,25 @@ body {
 
 .card-wh {
     width: 18rem; 
-    height: 9rem;
+    height: 20rem;
     overflow: hidden;
 }
 
 .img-wh {
     width: 18rem; 
-    height: 9rem;
+    height: 20rem;
     overflow: hidden;
 }
 
 .card-whh {
-    height: 9rem; 
+    height: 20rem;
     width: 18rem;
     overflow: hidden;
     object-fit: cover;
 }
 
 .img-whh {
-    height: 9rem; 
+    height: 20rem;
     width: 18rem;
     overflow: hidden;
     object-fit: cover;
