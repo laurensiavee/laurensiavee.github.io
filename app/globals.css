@@ -33,9 +33,7 @@ body {
 } */
 
 /* custom css */
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-@import url('https://fonts.cdnfonts.com/css/daniel');
+@font-face{font-family:daniel;font-style:normal;font-weight:400;src:local('Daniel'),url(https://fonts.cdnfonts.com/s/101/daniel.woff) format('woff')}@font-face{font-family:daniel;font-style:normal;font-weight:700;src:local('Daniel'),url(https://fonts.cdnfonts.com/s/101/danielbd.woff) format('woff')}@font-face{font-family:daniel black;font-style:normal;font-weight:900;src:local('Daniel Black'),url(https://fonts.cdnfonts.com/s/101/danielbk.woff) format('woff')}
 
 .hide{
     display: none;

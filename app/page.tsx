@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <>
@@ -54,7 +52,7 @@ export default function Home() {
                             <h1><b className="t-lb f-console px-5">Laurensia Vilda</b></h1>
                             <p className="t-wg f-console px-3">Computer Science Fresh Graduate focused in Intelligent Systems </p>
                             <div className="ps-2 py-4 align-r">
-                                <a className="fa fa-github t-lb logo-size" href="https://github.com/laurensiavee"></a>
+                                <a className="fa-solid fa-github t-lb logo-size" href="https://github.com/laurensiavee"></a>
                                 <a className="fa fa-linkedin t-lb ps-3 logo-size" href="https://id.linkedin.com/in/laurensia-vy"></a>
                             </div>
                         </div>
