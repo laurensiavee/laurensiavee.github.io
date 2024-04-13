@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+
 export default function Home() {
   return (
     <>
@@ -52,8 +55,8 @@ export default function Home() {
                             <h1><b className="t-lb f-console px-5">Laurensia Vilda</b></h1>
                             <p className="t-wg f-console px-3">Computer Science Fresh Graduate focused in Intelligent Systems </p>
                             <div className="ps-2 py-4 align-r">
-                                <a className="fa-solid fa-github t-lb logo-size" href="https://github.com/laurensiavee"></a>
-                                <a className="fa fa-linkedin t-lb ps-3 logo-size" href="https://id.linkedin.com/in/laurensia-vy"></a>
+                                <a className='t-lb logo-size mx-2' href="https://github.com/laurensiavee"><FontAwesomeIcon icon={faGithub}/></a>
+                                <a className='t-lb logo-size mx-2' href="https://id.linkedin.com/in/laurensia-vy"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                             </div>
                         </div>
                         <div className="col-md-3 ps-3">
@@ -221,7 +224,7 @@ export default function Home() {
                     <br />
                     <a href="https://github.com/laurensiavee/portfolio" className="px-2 py-2">
                         <span className="bg-gb text-white rounded-pill px-2 mx-1 py-2 my-0 pill-ell">
-                            <p className="fa fa-github t-lb mpy-0 logo-size-sm"></p>
+                            <span className="t-lb mpy-0 me-1 logo-size-sm"><FontAwesomeIcon icon={faGithub}/></span>
                             Portfolio Repository
                         </span>
                     </a>
@@ -246,7 +249,7 @@ export default function Home() {
                                                 </p>
                                             </div>
                                             <div className="col-md-1 text-end">
-                                                <p className="fa fa-github t-lb mpy-0 logo-size-sm"></p>
+                                                <p className="t-lb mpy-0 logo-size-sm"><FontAwesomeIcon icon={faGithub}/></p>
                                             </div>
                                         </div>
                                         <div className="mt-2 text-start">
@@ -276,7 +279,7 @@ export default function Home() {
                                                 </p>
                                             </div>
                                             <div className="col-md-1 text-end">
-                                                <p className="fa fa-github t-lb mpy-0 logo-size-sm"></p>
+                                                <p className="t-lb mpy-0 logo-size-sm"><FontAwesomeIcon icon={faGithub}/></p>
                                             </div>
                                         </div>
                                         <div className="mt-2 text-start">
@@ -307,7 +310,7 @@ export default function Home() {
                                                 </p>
                                             </div>
                                             <div className="col-md-1 text-end">
-                                                <p className="fa fa-github t-lb mpy-0 logo-size-sm"></p>
+                                                <p className="t-lb mpy-0 logo-size-sm"><FontAwesomeIcon icon={faGithub}/></p>
                                             </div>
                                         </div>
                                         <div className="mt-2 text-start">
@@ -337,7 +340,7 @@ export default function Home() {
                                                 </p>
                                             </div>
                                             <div className="col-md-1 text-end">
-                                                <p className="fa fa-github t-lb mpy-0 logo-size-sm"></p>
+                                                <p className="t-lb mpy-0 logo-size-sm"><FontAwesomeIcon icon={faGithub}/></p>
                                             </div>
                                         </div>
                                         <div className="mt-2 text-start">
@@ -367,7 +370,7 @@ export default function Home() {
                                                 </p>
                                             </div>
                                             <div className="col-md-1 text-end">
-                                                <p className="fa fa-github t-lb mpy-0 logo-size-sm"></p>
+                                                <p className="t-lb mpy-0 logo-size-sm"><FontAwesomeIcon icon={faGithub}/></p>
                                             </div>
                                         </div>
                                         <div className="mt-2 text-start">
@@ -394,7 +397,7 @@ export default function Home() {
                                                 </p>
                                             </div>
                                             <div className="col-md-1 text-end">
-                                                <p className="fa fa-github t-lb mpy-0 logo-size-sm"></p>
+                                                <p className="t-lb mpy-0 logo-size-sm"><FontAwesomeIcon icon={faGithub}/></p>
                                             </div>
                                         </div>
                                         <div className="mt-2 text-start">
@@ -424,7 +427,7 @@ export default function Home() {
                                                 </p>
                                             </div>
                                             <div className="col-md-1 text-end">
-                                                <p className="fa fa-github t-lb mpy-0 logo-size-sm"></p>
+                                                <p className="t-lb mpy-0 logo-size-sm"><FontAwesomeIcon icon={faGithub}/></p>
                                             </div>
                                         </div>
                                         <div className="mt-2 text-start">
@@ -454,7 +457,7 @@ export default function Home() {
                                                 </p>
                                             </div>
                                             <div className="col-md-1 text-end">
-                                                <p className="fa fa-github t-lb mpy-0 logo-size-sm"></p>
+                                                <p className="t-lb mpy-0 logo-size-sm"><FontAwesomeIcon icon={faGithub}/></p>
                                             </div>
                                         </div>
                                         <div className="mt-2 text-start">
@@ -495,7 +498,7 @@ export default function Home() {
                                                 </p>
                                             </div>
                                             <div className="col-md-1 text-end">
-                                                <p className="fa fa-github t-lb mpy-0 logo-size-sm"></p>
+                                                <p className="t-lb mpy-0 logo-size-sm"><FontAwesomeIcon icon={faGithub}/></p>
                                             </div>
                                         </div>
                                         <div className="mt-2 text-start">
@@ -528,7 +531,7 @@ export default function Home() {
                                                 </p>
                                             </div>
                                             <div className="col-md-1 text-end">
-                                                <p className="fa fa-github t-lb mpy-0 logo-size-sm"></p>
+                                                <p className="t-lb mpy-0 logo-size-sm"><FontAwesomeIcon icon={faGithub}/></p>
                                             </div>
                                         </div>
                                         <div className="mt-2 text-start">
@@ -561,7 +564,7 @@ export default function Home() {
                                                 </p>
                                             </div>
                                             <div className="col-md-1 text-end">
-                                                <p className="fa fa-github t-lb mpy-0 logo-size-sm"></p>
+                                                <p className="t-lb mpy-0 logo-size-sm"><FontAwesomeIcon icon={faGithub}/></p>
                                             </div>
                                         </div>
                                         <div className="mt-2 text-start">
@@ -594,7 +597,7 @@ export default function Home() {
                                                 </p>
                                             </div>
                                             <div className="col-md-1 text-end">
-                                                <p className="fa fa-github t-lb mpy-0 logo-size-sm"></p>
+                                                <p className="t-lb mpy-0 logo-size-sm"><FontAwesomeIcon icon={faGithub}/></p>
                                             </div>
                                         </div>
                                         <div className="mt-2 text-start">
@@ -641,11 +644,11 @@ export default function Home() {
 
                     <div className="text-center">
                         <span className="roboto py-1 text-center px-2"><b>
-                            <a className="fa fa-github t-lb px-2 logo-size" href="https://github.com/laurensiavee"></a>
+                            <a className="t-lb px-2 logo-size" href="https://github.com/laurensiavee"><FontAwesomeIcon icon={faGithub}/></a>
                             laurensiavee
                         </b></span>
                         <span className="roboto py-1 text-center px-2"><b>
-                            <a className="fa fa-linkedin t-lb px-2 logo-size" href="https://id.linkedin.com/in/laurensia-vy"></a>
+                            <a className="t-lb px-2 logo-size" href="https://id.linkedin.com/in/laurensia-vy"><FontAwesomeIcon icon={faLinkedin}/></a>
                             Laurensia Vilda
                         </b></span>
                     </div>
@@ -664,17 +667,15 @@ export default function Home() {
         <footer className="foot">
             <div className="mx-7 px-10 my-5 text-center">
                 <h2 className="daniel line-h">Contact</h2>
-                <a className="fa fa-github t-lb ps-3 logo-size-sm" href="https://github.com/laurensiavee"></a>
+                <a className="t-lb ps-3 logo-size-sm" href="https://github.com/laurensiavee"></a>
                 laurensiavee
-                <a className="fa fa-linkedin t-lb ps-3 logo-size-sm" href="https://id.linkedin.com/in/laurensia-vy"></a>
+                <a className="t-lb ps-3 logo-size-sm" href="https://id.linkedin.com/in/laurensia-vy"><FontAwesomeIcon icon={faGithub}/></a>
                 Laurensia Vilda
             </div>
 
             <p className="roboto text-center text-muted px-0"><b>© 2023 laurensiavee. All right reserved.</b></p>
         </footer>
 
-        {/* script */}
-        {/* <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> */}
       </div>
     </>
   );
