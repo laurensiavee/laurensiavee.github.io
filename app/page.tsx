@@ -4,18 +4,21 @@ import { faGithub, faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg
 export default function Home() {
   return (
     <>
-      <div className="bg-ddb">
+      <div className="bg-ddb mp-0">
         {/* navbar */}
-        <nav className="navbar navbar-expand-lg navbar-dark roboto mb-0 nav-fixed">
-            <div className="container-fluid w-20 mx-0">
-                <p className="text-light mx-0 p-l t-lb daniel-b">v e e</p>
+        <div className='nav-fixed'>
+        <nav className="navbar navbar-expand-lg navbar-dark roboto mb-0">
+            <div className='w-20'>
+                <div className="container-fluid mx-0 pt-2">
+                    <p className="text-light mx-0 p-l t-lb daniel-b">v e e</p>
+                </div>
             </div>
 
             <div className="w-60 center-w mx-0">
-                <a className="navbar-brand mp-0" href="#"></a>
+                {/* <a className="navbar-brand mp-0" href="#"></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
-                </button>
+                </button> */}
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 center-w">
@@ -34,6 +37,8 @@ export default function Home() {
                 </form>
             </div>
         </nav>
+        </div>
+        
 
         {/* home */}
         <section id="home" className="px-5 mb-5">
@@ -66,7 +71,7 @@ export default function Home() {
                     </div>
 
                     <div className="row g-0 my-5">
-                        <div className="col-md-5 my-2 px-5">
+                        <div className="col-md-5 my-3 px-5">
                             <div className="card mb-3">
                             </div>
                         </div>

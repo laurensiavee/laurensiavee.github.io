@@ -35,6 +35,13 @@ body {
 /* custom css */
 @font-face{font-family:daniel;font-style:normal;font-weight:400;src:local('Daniel'),url(https://fonts.cdnfonts.com/s/101/daniel.woff) format('woff')}@font-face{font-family:daniel;font-style:normal;font-weight:700;src:local('Daniel'),url(https://fonts.cdnfonts.com/s/101/danielbd.woff) format('woff')}@font-face{font-family:daniel black;font-style:normal;font-weight:900;src:local('Daniel Black'),url(https://fonts.cdnfonts.com/s/101/danielbk.woff) format('woff')}
 
+a {
+    textDecoration: none;
+    &:focus, &:hover, &:visited, &:link, &:active {
+        text-decoration: none;
+    }
+}
+
 .hide{
     display: none;
 }
@@ -127,6 +134,8 @@ body {
 .card-desc{
     line-height: 1;
     font-size: 0.9rem;
+    padding: 0;
+    margin: 0;
 }
 
 .line-h{
@@ -353,25 +362,25 @@ body {
 
 .card-wh {
     width: 18rem; 
-    height: 20rem;
+    height: 9rem;
     overflow: hidden;
 }
 
 .img-wh {
     width: 18rem; 
-    height: 19rem;
+    height: 9rem;
     overflow: hidden;
 }
 
 .card-whh {
-    height: 18rem; 
+    height: 9rem; 
     width: 18rem;
     overflow: hidden;
     object-fit: cover;
 }
 
 .img-whh {
-    height: 18rem; 
+    height: 9rem; 
     width: 18rem;
     overflow: hidden;
     object-fit: cover;
@@ -405,6 +414,11 @@ p {
 }
 
 .mx-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.py-0 {
     margin-left: 0;
     margin-right: 0;
 }
@@ -555,12 +569,6 @@ p {
     padding: 0 !important;
 }
 
-.mp-0 {
-    width: 0;
-    height: 0;
-    margin: 0;
-    padding: 0;
-}
 
 /* w3 timeline */
 * {
