@@ -431,6 +431,14 @@ p {
     height: 500px;
 }
 
+.logo-size {
+    font-size: 36px
+}
+
+.logo-size-sm {
+    font-size: 24px
+}
+
 /* container size */
 
 .w-100 {
@@ -518,6 +526,11 @@ p {
     height: 0;
     margin: 0;
     padding: 0;
+}
+
+/* timeline container */
+.timeline-container{
+    box-sizing: border-box
 }
 
 /* w3 timeline */
